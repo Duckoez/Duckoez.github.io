@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: red;
+}
+
+div {
+    width: 20vw;
+    height: 20vh;
+    /*border: 1px solid red;*/
+    /*display: inline-block;*/
+    float: left;
+    position: absolute;
+}
+
+.a {
+    background-color: red;
+    right:40vw;
+    top: 20vh;
+}
+
+.b{
+    background-color: black;
+    bottom: 40vh;
+    right: 40vw;
+    z-index: 2;
+}
+
+.c {
+    background-color: yellow;
+    right: 30vw;
+    top: 40vh;
+    z-index: 1;
+}
+
+.d {
+    background-color: navy;
+    right: 40vw;
+    bottom: 20vh;
+    z-index: 0;
+}
+
+.e {
+    background-color: green;
+    top: 40vh;
+    left:30vw;
+}
